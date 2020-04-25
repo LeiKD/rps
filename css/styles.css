@@ -1,0 +1,42 @@
+.container-1{
+    background-image: url("https://bit.ly/3axcXd5");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: rgb(10, 54, 4);
+    font-size: 50px;
+    font-weight: 1000;
+}
+.container-1 h1{
+    font-size: 100px;
+    font-weight:100;
+    padding-top: 30px;
+    color: mediumblue;
+    text-decoration-line: underline;
+}
+.flex-box-container-1{
+    display:flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: row;    
+}
+.flex-box-container-1 img:hover{
+    box-shadow: 0px 10px 50px blue;
+}
+.flex-box-container-1 h1{
+    font-weight: 900;
+    font-size: 70px;
+    
+}
+.flex-box-container-2{
+    display: flex;
+    border:2px solid black;
+    padding: 10px;
+    flex-direction: row;
+    background-color: rgb(131, 130, 126);
+    justify-content: space-around;
+}
